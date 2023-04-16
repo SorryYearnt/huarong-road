@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/huarong-road/static/css/main.28132654.css",
-    "main.js": "/huarong-road/static/js/main.1ff904d9.js",
+    "main.css": "/huarong-road/static/css/main.8f50274a.css",
+    "main.js": "/huarong-road/static/js/main.bc571843.js",
     "static/media/CaoCao.png": "/huarong-road/static/media/CaoCao.2d13e7959ae0bc46bdc2.png",
     "static/media/HuangZhong.png": "/huarong-road/static/media/HuangZhong.89ac739696e6ce9b0131.png",
     "static/media/MaChao.png": "/huarong-road/static/media/MaChao.c253e5f5321ea622b0bc.png",
@@ -12,11 +12,11 @@
     "static/media/Title.png": "/huarong-road/static/media/Title.eb37139606c4fe1e403f.png",
     "static/media/PromptInformation.png": "/huarong-road/static/media/PromptInformation.1f4d80cafdc8aa8f6851.png",
     "index.html": "/huarong-road/index.html",
-    "main.28132654.css.map": "/huarong-road/static/css/main.28132654.css.map",
-    "main.1ff904d9.js.map": "/huarong-road/static/js/main.1ff904d9.js.map"
+    "main.8f50274a.css.map": "/huarong-road/static/css/main.8f50274a.css.map",
+    "main.bc571843.js.map": "/huarong-road/static/js/main.bc571843.js.map"
   },
   "entrypoints": [
-    "static/css/main.28132654.css",
-    "static/js/main.1ff904d9.js"
+    "static/css/main.8f50274a.css",
+    "static/js/main.bc571843.js"
   ]
 }
