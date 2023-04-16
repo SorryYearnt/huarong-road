@@ -1,0 +1,37 @@
+.Characters {
+  position: absolute;
+  left: 0;
+  top: 0;
+  aspect-ratio: 1/1.25;
+  width: 100%;
+}
+
+.CaoCao {
+  border-color: #49688a #16233d #16233d #49688a;
+}
+.GuanYu, .ZhangFei, .ZhaoYun, .MaChao, .HuangZhong, .Soldier {
+  border-color: #d36122 #641815 #641815 #d36122;
+}
+/* 本代码由SorryYearnt编写，转载请注明出处。This code is written by SorryYearnt. Please indicate the source for reprinting. このコードはSorryYearntによって書かれており、転載は出典を明記してください。 */
+
+.CaoCao {
+  background-image: url(../media/CaoCao.png);
+}
+.GuanYu {
+  background-image: url(../media/GuanYu.png);
+}
+.ZhangFei {
+  background-image: url(../media/ZhangFei.png);
+}
+.ZhaoYun {
+  background-image: url(../media/ZhaoYun.png);
+}
+.MaChao {
+  background-image: url(../media/MaChao.png);
+}
+.HuangZhong {
+  background-image: url(../media/HuangZhong.png);
+}
+.Soldier {
+  background-image: url(../media/Soldier.png);
+}

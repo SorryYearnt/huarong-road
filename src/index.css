@@ -1,0 +1,60 @@
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+html {
+  --Gamer-Color: #a1a07c;
+  --Watermark: url(./media/Watermark.png);
+  --cursor: url(./media/cursor.png), auto;
+  font-family: "\65B9\6B63\7C97\9ED1\5B8B\7B80\4F53", "\5FAE\8F6F\96C5\9ED1";
+  background-color: #fffbce;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: var(--cursor);
+  touch-action: none;
+}
+a, button {
+  cursor: var(--cursor);
+}
+
+.WaterMark {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: var(--Watermark), var(--Watermark), var(--Watermark), var(--Watermark), var(--Watermark), var(--Watermark), var(--Watermark), var(--Watermark);
+  background-size: 336px;
+  background-position: 0 0, 126px -42px, 84px 84px, 42px -126px, -42px 126px, -126px 42px, -84px -84px, 168px 168px;
+  background-attachment: fixed;
+  pointer-events: none;
+}
+.Propaganda {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 1ex;
+  font-size: 12px;
+  color: #777;
+  text-align: right;
+}
+.Propaganda h6 {
+  margin-bottom: 4px;
+  font-size: inherit;
+  font-weight: normal;
+}
+/* 本代码由SorryYearnt编写，转载请注明出处。This code is written by SorryYearnt. Please indicate the source for reprinting. このコードはSorryYearntによって書かれており、転載は出典を明記してください。 */
+@media (max-width: 450px) {
+  html {
+    background: var(--Gamer-Color);
+  }
+  .WaterMark {
+    display: none;
+  }
+}

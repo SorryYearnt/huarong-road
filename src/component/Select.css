@@ -1,0 +1,95 @@
+.Select {
+  --border-radius: 3px;
+  --height: 32px;
+  --padding-left: 10px;
+  --Options-background-color: #b0efa7;
+  --scrollbar-width: 5px;
+  --transition-duration: 0.4s;
+  --Option-padding-right: 25px;
+  position: relative;
+  height: var(--height);
+  min-width: calc(var(--padding-left) + var(--Option-padding-right) + var(--scrollbar-width));
+}
+.Select .Input {
+  padding-right: var(--scrollbar-width);
+  border-radius: var(--border-radius);
+}
+.Select .Input, .Select .Option {
+  overflow: hidden;
+  box-sizing: border-box;
+  height: var(--height);
+  line-height: var(--height);
+}
+@media (hover: hover) {
+  .Select:hover .Input {
+    background-color: #ffd985;
+  }
+}
+@media (hover: none) {
+  .Select.Spreading .Input {
+    background-color: #ffd985;
+  }
+}
+.Select .Input::after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: calc(var(--height) / 2);
+  width: 7px;
+  height: 7px;
+  border: 2px solid #3e4a3c;
+  border-width: 0 0 2px 2px;
+  transform: translate(50%, -50%) rotate(45deg);
+  transition: var(--transition-duration);
+}
+.Select.Spreading .Input::after {
+  transform: translate(50%, -50%) rotate(-45deg);
+}
+.Select .Drop-downMenu {
+  overflow: hidden;
+  margin-top: 0;
+  max-height: 0;
+  border-radius: var(--border-radius);
+  transition: var(--transition-duration);
+  transition-property: all, margin-top;
+  transition-timing-function: ease, step-end;
+}
+.Select.Spreading .Drop-downMenu {
+  margin-top: calc(var(--height) / 10);
+  transition-timing-function: ease, step-start;
+}
+.Select .Options {
+  overflow-y: scroll;
+  width: 100%;
+  background-color: var(--Options-background-color);
+}
+.Select .Options::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  background-color: var(--Options-background-color);
+}
+.Select .Options::-webkit-scrollbar-thumb {
+  border-radius: calc(var(--scrollbar-width) / 2);
+  background-color: #00594f;
+}
+.Select .Options.NotOverHeight::-webkit-scrollbar {
+  display: none;
+}
+/* 本代码由SorryYearnt编写，转载请注明出处。This code is written by SorryYearnt. Please indicate the source for reprinting. このコードはSorryYearntによって書かれており、転載は出典を明記してください。 */
+
+.Select .Option {
+  padding-left: var(--padding-left);
+  padding-right: var(--Option-padding-right);
+}
+.Select .Options.NotOverHeight .Option {
+  padding-right: calc(var(--Option-padding-right) + var(--scrollbar-width));
+}
+.Select .Options .Option {
+  color: #484838;
+}
+.Select .Options .Option.Selecting {
+  background-color: #75b16e;
+}
+.Select .Options .Option:hover {
+  color: #fffbce;
+  background-color: #005c3b;
+}

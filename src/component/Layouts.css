@@ -1,0 +1,17 @@
+.OxO {
+  aspect-ratio: 1;
+  width: 25%;
+}
+.OxT {
+  aspect-ratio: 0.5;
+  width: 25%;
+}
+.TxO {
+  aspect-ratio: 2;
+  width: 50%;
+}
+.TxT {
+  aspect-ratio: 1;
+  width: 50%;
+}
+/* 本代码由SorryYearnt编写，转载请注明出处。This code is written by SorryYearnt. Please indicate the source for reprinting. このコードはSorryYearntによって書かれており、転載は出典を明記してください。 */

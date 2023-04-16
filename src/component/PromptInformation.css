@@ -1,0 +1,20 @@
+.PromptInformation {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  box-sizing: border-box;
+  padding-top: 10%;
+  aspect-ratio: 1000/1225;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.PromptInformation svg {
+  width: 70%;
+}
+.PromptInformation img {
+  width: 70%;
+}
+/* 本代码由SorryYearnt编写，转载请注明出处。This code is written by SorryYearnt. Please indicate the source for reprinting. このコードはSorryYearntによって書かれており、転載は出典を明記してください。 */

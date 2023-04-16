@@ -1,0 +1,53 @@
+.Gamer {
+  margin: 5vh auto;
+  max-width: 400px;
+  max-height: 635px;
+  border-radius: 1vw;
+  background-color: var(--Gamer-Color);
+}
+/* 本代码由SorryYearnt编写，转载请注明出处。This code is written by SorryYearnt. Please indicate the source for reprinting. このコードはSorryYearntによって書かれており、転載は出典を明記してください。 */
+
+.Title {
+  position: relative;
+  max-height: 145px;
+}
+.Title h1 {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  width: 90%;
+  height: 70px;
+  background: url(../media/Title.png) 0 0 / contain no-repeat;
+  pointer-events: none;
+}
+.Title .Setup {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  width: 200%;
+  height: 32px;
+  font-size: 15px;
+  color: #3e4a3c;
+  transform-origin: right bottom;
+}
+.Title .Setup > * {
+  float: right;
+  height: 100%;
+  border-radius: 3px;
+  background-color: #bfb156;
+}
+.Title .Select {
+  margin-right: 3%;
+}
+.Title button {
+  aspect-ratio: 2.5/1;
+}
+@media (hover: hover) {
+  .Title button:hover {
+    background-color: #ffd985;
+  }
+}
+.Title button:active {
+  background-color: #75b16e;
+  transition: 0.1s;
+}
